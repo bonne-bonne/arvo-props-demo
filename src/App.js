@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+
+//=====Component imports=======//
+//import the pokemon page component
+
+
+//=====Image imports=======//
+import PokemonLogo from './PokemonLogo.png'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className='header'>
+        <img src={PokemonLogo} alt="logo" />
       </header>
+    
     </div>
   );
 }
