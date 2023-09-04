@@ -19,7 +19,7 @@
 
 7. Create multiple instances of the PokemonCard component with different profile data.
 
-8. Render the pokemon cards in your application, passing the profile data as props to each instance of the PokemonCard component.
+8. Render the pokemon cards in your application, passing the pokemon data as props to each instance of the PokemonCard component.
 
 Extra:
 1. Try to destructure the data you are passing into the PokemonCard component.
