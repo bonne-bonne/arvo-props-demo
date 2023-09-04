@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Exercise: Building a Pokemon Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Open the React component called PokemonCard.
 
-## Available Scripts
+2. In the PokemonCard component, render a card-like layout that displays a pokemons profile information. (css should be taken care of for you).
 
-In the project directory, you can run:
+3. The pokemon card should include the following information:
+ - Name (h1)
+ - Type (h3)
+ - Height (h3)
+ - Weight (h3)
+ - Image (img)
+   
+4. Use props to pass the pokemon data to the PokemonCard component from the PokemonPage Component
 
-### `npm start`
+5. Import the PokemonCard component into your PokemonPage component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+6. Import the PokemonPage component into your main application file App.js.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+7. Create multiple instances of the PokemonCard component with different profile data.
 
-### `npm test`
+8. Render the pokemon cards in your application, passing the profile data as props to each instance of the PokemonCard component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Extra:
+1. Try to destructure the data you are passing into the PokemonCard component.
+   
+2. Instead of creating multiple instances of the PokemonCard component. Try mapping them out using this array.
 
-### `npm run build`
+```bash
+const pokemons = [
+  {
+    name: "Pikachu",
+    type: "Electric",
+    height: "0.4m",
+    weight: "6.0kg",
+    src: Pikachu,
+  },
+  {
+    name: "Psyduck",
+    type: "Water",
+    height: "0.8m",
+    weight: "19.6kg",
+    src: Psyduck,
+  },
+  {
+    name: "Charmander",
+    type: "Fire",
+    height: "0.6m",
+    weight: "8.5kg",
+    src: Charmander,
+  },
+  {
+    name: "Eevee",
+    type: "Normal",
+    height: "0.3m",
+    weight: "6.5kg",
+    src: Eevee,
+  },
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+];
+```
