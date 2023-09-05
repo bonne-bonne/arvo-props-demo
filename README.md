@@ -1,25 +1,31 @@
 # Exercise: Building a Pokemon Card
 
-1. Open the React component called PokemonCard.
+1. Clone the repo
+   
+2. Open the terminal in the project directory and do npm install
+   
+3. npm start
+    
+4.  Open the React component called PokemonCard.
 
-2. In the PokemonCard component, render a card-like layout that displays a pokemons profile information. (css should be taken care of for you).
+5. In the PokemonCard component, render a card-like layout that displays a pokemons profile information. (css should be taken care of for you).
 
-3. The pokemon card should include the following information:
+6. The pokemon card should include the following information:
  - Name (h1)
  - Type (h3)
  - Height (h3)
  - Weight (h3)
  - Image (img) note: You will need to add a className="pokemon-image" for the styling to work.
    
-4. Set up yout props so that they will pass the pokemon data to the PokemonCard component from the PokemonPage Component.
+7. Set up yout props so that they will pass the pokemon data to the PokemonCard component from the PokemonPage Component.
 
-5. Import the PokemonCard component into your PokemonPage component.
+8. Import the PokemonCard component into your PokemonPage component.
 
-6. Import the PokemonPage component into your main application file App.js.
+9. Import the PokemonPage component into your main application file App.js.
 
-7. Create multiple instances of the PokemonCard component with different profile data.
+10. Create multiple instances of the PokemonCard component with different profile data.
 
-8. Render the pokemon cards in your application, passing the pokemon data as props to each instance of the PokemonCard component.
+11. Render the pokemon cards in your application, passing the pokemon data as props to each instance of the PokemonCard component.
 
 Extra:
 1. Try to destructure the data you are passing into the PokemonCard component.
