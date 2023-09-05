@@ -9,9 +9,9 @@
  - Type (h3)
  - Height (h3)
  - Weight (h3)
- - Image (img)
+ - Image (img) note: You will need to add a className="pokemon-image" for the styling to work.
    
-4. Use props to pass the pokemon data to the PokemonCard component from the PokemonPage Component
+4. Set up yout props so that they will pass the pokemon data to the PokemonCard component from the PokemonPage Component.
 
 5. Import the PokemonCard component into your PokemonPage component.
 
