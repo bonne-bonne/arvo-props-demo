@@ -6,7 +6,7 @@ export default function PokemonCard() {
     <div className="pokemon-card-container">
 
       <div className="left-section">
-        {/* image of pokemon goes here */}
+        {/* image of pokemon goes here - use className="pokemon-image" for the styling to work */}
       </div>
 
       <div className="right-section">
